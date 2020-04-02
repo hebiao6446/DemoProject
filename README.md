@@ -1,2 +1,2 @@
 # DemoProject
-react demon project 
+react demo project 
