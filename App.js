@@ -9,12 +9,13 @@
 import React, {Component} from 'react';
 import {View, StyleSheet, Text} from 'react-native';
 import GuideGroup from './appcode/GuideGroup';
+import ADView from "./appcode/ADView";
 
 class App extends Component{
   render() {
     return (
         <View style={styles.view1}>
-        <GuideGroup/>
+        <ADView/>
         </View>
   )
   }

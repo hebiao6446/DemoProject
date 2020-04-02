@@ -1,7 +1,6 @@
 import React, {Component} from 'react';
 import {Image, StyleSheet, View} from 'react-native';
 class GuideView extends Component{
-
     render(){
         return (
             <View>
@@ -11,12 +10,10 @@ class GuideView extends Component{
     }
 }
 const styles = StyleSheet.create({
-
     imgStyle:{
         resizeMode:'cover',
         height: '100%',
         width: '100%',
     },
-
 });
 export default GuideView;

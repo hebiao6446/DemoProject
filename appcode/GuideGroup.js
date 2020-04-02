@@ -33,7 +33,6 @@ class GuideGroup extends Component{
                     })
                 }
             </ViewPager>
-
             <TouchableOpacity style={styles.btnView} onPress={
                 () => {
                     if (!this.state.showButton) return;
@@ -41,7 +40,6 @@ class GuideGroup extends Component{
                 }
             } >
             </TouchableOpacity>
-
             <PageControl
                 style={{position:'absolute', left:0, right:0, bottom:15}}
                 numberOfPages={5}
@@ -68,12 +66,16 @@ const styles = StyleSheet.create({
     },
     btnView:{
         backgroundColor:"#00ff0000",
-        width:300,
+        width:350,
         height:70,
         position:'absolute',
-        left:'50%',
+        // left:'50%',
         bottom:30,
-        transform:[{translateX:'-150'}],
+        ...Platform.select({
+            // ios:{ transform:[{translateX:'-150'}],},
+            // android:{},
+        })
+
     },
 
 });
