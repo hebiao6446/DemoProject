@@ -10,8 +10,10 @@
     "lint": "eslint ."
   },
   "dependencies": {
+    "@react-native-community/viewpager": "^3.3.0",
     "react": "16.11.0",
-    "react-native": "0.62.0"
+    "react-native": "0.62.0",
+    "react-native-page-control": "^1.1.2"
   },
   "devDependencies": {
     "@babel/core": "^7.9.0",
