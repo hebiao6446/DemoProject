@@ -1,0 +1,28 @@
+export default {
+    COLOR_DEF: "#489CB5",
+    COLOR_111111: "#111111",
+    COLOR_666666: "#666666",
+    COLOR_313232: "#313232",
+    COLOR_D8D8D8: "#D8D8D8",
+    COLOR_abaaaa: "#abaaaa",
+    COLOR_F2F2F2: "#F2F2F2",
+    COLOR_3D8BAA: "#3D8BAA",
+    COLOR_BLUE: "#4169E1",
+    COLOR_eeeeee: "#eeeeee",
+    COLOR_ffffff: "#ffffff",
+    COLOR_e85b53: "#e85b53",
+
+
+    COLOR_Num_DEF: 0x489CB5,
+    COLOR_Num_111111: 0x111111,
+    COLOR_Num_666666: 0x666666,
+    COLOR_Num_313232: 0x313232,
+    COLOR_Num_D8D8D8: 0xD8D8D8,
+    COLOR_Num_abaaaa: 0xffabaaaa,
+    COLOR_Num_F2F2F2: 0xF2F2F2,
+    COLOR_Num_3D8BAA: 0x3D8BAA,
+    COLOR_Num_BLUE: 0x4169E1,
+    COLOR_Num_eeeeee: 0xeeeeee,
+    COLOR_Num_ffffff: 0xffffff,
+    COLOR_Num_e85b53: 0xe85b53,
+}
