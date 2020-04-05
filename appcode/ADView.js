@@ -57,7 +57,7 @@ class ADView extends Component{
         ADUtil.getAdDuringTime().then((res)=>{
             let rmt = Number.parseInt(res);
             this.setState({
-                remainTime:rmt?rmt:5,
+                remainTime:rmt?rmt:3,
             })
             this.counFun(rmt);
         }).catch((e)=>{

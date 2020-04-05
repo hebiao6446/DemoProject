@@ -4,6 +4,7 @@ import {StyleSheet, TouchableOpacity, View} from "react-native";
 import GuideView from "./GuideView";
 import PageControl from 'react-native-page-control';
 import ViewPager from "@react-native-community/viewpager";
+import ADUtil from "./utils/ADUtil";
 class GuideGroup extends Component{
     constructor(pros){
         super(pros);
@@ -37,6 +38,9 @@ class GuideGroup extends Component{
                 () => {
                     if (!this.state.showButton) return;
                     this.props.onButtonClick();
+                    ADUtil.setFtStart(false).then(r => {
+
+                    });
                 }
             } >
             </TouchableOpacity>

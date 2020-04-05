@@ -9,4 +9,6 @@ export default {
     img_tabbar2:require('../../appimages/Star.png'),
     img_tabbar3:require('../../appimages/book.png'),
     img_tabbar4:require('../../appimages/Triangle.png'),
+    bar_item_sc:require('../../appimages/sc_baritem.png'),
+    bar_item_ss:require('../../appimages/ss_baritem.png'),
 }
