@@ -26,6 +26,10 @@ export default class NewPushView  extends BaseComponet{
 
     }
 }
+
+// cecba3ef670321c25c7246174f586113
+
+
 const styles = StyleSheet.create({
     contain:{
         backgroundColor:'#00ff0022',

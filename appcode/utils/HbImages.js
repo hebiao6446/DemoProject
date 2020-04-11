@@ -11,4 +11,10 @@ export default {
     img_tabbar4:require('../../appimages/Triangle.png'),
     bar_item_sc:require('../../appimages/sc_baritem.png'),
     bar_item_ss:require('../../appimages/ss_baritem.png'),
+    img_neterror:require('../../appimages/neterror.png'),
+    img_loadinggif:require('../../appimages/loaddinggif.gif'),
+    img_empty:require('../../appimages/lsempty.png'),
+
+
+
 }
