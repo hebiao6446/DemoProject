@@ -34,7 +34,6 @@ class SecondView  extends BaseComponet{
         });
 
     }
-
     render(){
         return (
             <View style={styles.contain}>
